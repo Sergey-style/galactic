@@ -183,11 +183,11 @@ body{
 }
 .galaktika_text {
 	font-family: 'Montserrat';
-	font-size: 19px;
+	font-size: 16px;
 	font-weight: 400;
 	color: #ffffff ;
 }
-@media(max-width: 560px){
+@media(max-width: 700px){
 .galaktika_zakaz {
 	flex-direction: column;
 	align-items: flex-start;
@@ -202,7 +202,7 @@ body{
 /*--------------------------------------------------------------------*/
 .violet {
 	background: #0F0F1C;
-	padding: 46px 200px 62px 200px;
+	padding: 46px 10px 62px 10px;
 }
 .container {}
 .violet_text {
@@ -213,10 +213,15 @@ body{
 	font-weight: 400;
 	color: #F5F5F5;
 }
+@media(max-width: 700px){
+.violet_text {
+		font-size: 18px;
+}
+}
 /*--------------------------------------------------------------------*/
 .warum {
 	background: url('../img/image 2.png')0 0/cover no-repeat;
-	padding: 216px 0 246px 0;
+	padding: 116px 0 146px 0;
 	background-position: center;
 }
 .container {}
@@ -234,10 +239,15 @@ body{
 .warum_text p:last-child{
 	margin-bottom: 0;
 }
+@media(max-width: 700px){
+.warum_text {
+		font-size: 18px;
+}
+}
 /*------------------------------------------------*/
 .welche {
 	background: #0F0F1C;
-	padding: 76px 0 268px 0;
+	padding: 96px 10ox 268px 10px;
 }
 .container {}
 .welche_tit{
@@ -251,6 +261,7 @@ body{
 	color: #F5F5F5 ;
 	line-height: 55px;
 	margin-bottom: 75px;
+	margin-top: 90px;
 }
 .welche_subtitle {
 	text-align: center;
@@ -268,6 +279,7 @@ body{
 .welche_columns {
 	display: flex;
 	flex: 0 1 100%;
+	margin-bottom: 70px;
 }
 .welche_column {
 	flex: 0 1 33.333%;
@@ -301,6 +313,11 @@ body{
 }
 .welche_column {
 	margin-bottom: 50px;
+}
+}
+@media(max-width: 700px){
+.welche_img	img{
+  width: 100%;
 }
 }
 /*-----------------------------------------*/
